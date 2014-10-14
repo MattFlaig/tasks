@@ -1,0 +1,12 @@
+Python webserver:
+
+python -m SimpleHTTPServer
+(Port 8000)
+
+
+
+Local Storage in Firefox:
+
+var ls = window.content.localStorage;
+ls.setItem("myvariable", "myvalue");
+var item = ls.getItem("myvariable");
